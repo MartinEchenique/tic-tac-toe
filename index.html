@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="ticTacToe.js"></script>
+    </link>
+    <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="stats">
+        <h1 id="tic-tac-toe-title">TIC-TAC-TOE</h1>
+        <div id="player-one-stats" class="player-stat">
+            <p id="player-one-name"></p>
+            <p id="player-one-points"></p>
+            <p id="player-one-mark"></p>
+        </div>
+        <div id="player-two-stats" class="player-stat">
+            <p id="player-two-name"></p>
+            <p id="player-two-points"></p>
+            <p id="player-two-mark"></p>
+        </div>
+    </div>
+
+    <div class="center-container">
+        <div id="playersFrom">
+            <label for="player-one">Player 1: <input type="text" id="player-one" name="player-one" placeholder="Name">
+            </label>
+            <label for="player-two">Player 2: <input type="text" id="player-two" name="player-two" placeholder="Name">
+            </label>
+            <button id="startBtn">Start Game!</button>
+        </div>
+
+
+
+        <div id="board">
+            <div id="gameOver">
+                <p id="gameOverMesagge"></p>
+                <button id="gameOverBtn">Play Again</button>
+
+            </div>
+            <div class="board-place" data="0" id="place-0"></div>
+            <div class="board-place" data="1"></div>
+            <div class="board-place" data="2" id="place-2"></div>
+            <div class="board-place" data="3"></div>
+            <div class="board-place" data="4"></div>
+            <div class="board-place" data="5"></div>
+            <div class="board-place" data="6" id="place-6"></div>
+            <div class="board-place" data="7"></div>
+            <div class="board-place" data="8" id="place-8"></div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
